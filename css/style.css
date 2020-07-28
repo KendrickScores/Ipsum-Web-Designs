@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #25EBEB;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Header*/
+header {
+    background-color: #fff;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+header h3 {
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+header .branding {
+    float: left;
+}
+
+header li {
+    float: left;
+    padding: 0 15px;
+    margin-top: 15px;
+    display: inline;
+}
+
+header nav {
+    float: right;
+}
